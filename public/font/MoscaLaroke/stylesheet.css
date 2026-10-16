@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Mosca Laroke';
+    src: url('MoscaLaroke.eot');
+    src: url('MoscaLaroke.eot?#iefix') format('embedded-opentype'),
+        url('MoscaLaroke.woff2') format('woff2'),
+        url('MoscaLaroke.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
