@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import api from "../services/config";
 import ProductCart from "../components/ProductCart";
 
-const HomePage = () => {
+
+const ProuctCartPage = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -31,8 +32,9 @@ const HomePage = () => {
           <ProductCart     product={product} key={product.id} />
         ))}
       </div>
+   
     </div>
   );
 };
 
-export default HomePage;
+export default ProuctCartPage;

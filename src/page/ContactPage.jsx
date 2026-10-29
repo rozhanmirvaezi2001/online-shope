@@ -22,7 +22,7 @@ const ContactPage = () => {
   return (
     <section className="mx-auto my-10 w-full max-w-lg px-4">
       <div className="rounded-[25px] bg-[#f5efe6] p-6">
-        <h1 className="mb-2 text-2xl font-[MoscaLaroke] text-[#561c24]">
+        <h1 className="mb-2 text-2xl font-[BattleBingo] text-[#561c24]">
           Contact us
         </h1>
         <p className="mb-6 text-[#b3727b]">
@@ -36,7 +36,7 @@ const ContactPage = () => {
         )}
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-          <label className="flex flex-col font-[MoscaLaroke] gap-1 text-[#561c24]">
+          <label className="flex flex-col font-[BattleBingo] gap-1 text-[#561c24]">
             Name
             <input
               type="text"
@@ -48,7 +48,7 @@ const ContactPage = () => {
             />
           </label>
 
-          <label className="flex flex-col gap-1 font-[MoscaLaroke] text-[#561c24]">
+          <label className="flex flex-col gap-1 font-[BattleBingo] text-[#561c24]">
             Email
             <input
               type="email"
@@ -60,7 +60,7 @@ const ContactPage = () => {
             />
           </label>
 
-          <label className="flex flex-col gap-1 font-[MoscaLaroke] text-[#561c24]">
+          <label className="flex flex-col gap-1 font-[BattleBingo] text-[#561c24]">
             Message
             <textarea
               name="message"
@@ -74,7 +74,7 @@ const ContactPage = () => {
 
           <button
             type="submit"
-            className="rounded-[10px] bg-[#561c24] p-3 font-[MoscaLaroke] text-white hover:bg-[#b3727b]"
+            className="rounded-[10px] bg-[#561c24] p-3 font-[BattleBingo] text-white hover:bg-[#b3727b]"
           >
             Send message
           </button>
@@ -82,7 +82,7 @@ const ContactPage = () => {
       </div>
     
       <Link to="/">
-        <button className="w-35 h-12 mt-10 text-[#e8d8c4] bg-[#561c24] font-[MoscaLaroke] hover:bg-[#9b5760] rounded-xl hover:font-bold hover:text-shadow-lg/30"> Go back </button>
+        <button className="w-35 h-12 mt-10 text-[#e8d8c4] bg-[#561c24] font-[BattleBingo] hover:bg-[#9b5760] rounded-xl hover:font-bold hover:text-shadow-lg/30"> Go back </button>
       </Link>
 
       </section>

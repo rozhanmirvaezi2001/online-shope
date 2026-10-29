@@ -1,19 +1,19 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
 import Footer from "./components/Fooder";
 import { Outlet } from "react-router-dom";
+import SearchBar from "./components/SearchBar";
 
-
-const App = ()=> {
-
+const App = () => {
   return (
     <>
-     <Header />
+      <Header />
+      <SearchBar />
       <main>
         <Outlet />
       </main>
-<Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

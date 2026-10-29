@@ -1,25 +1,25 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "MoscaLaroke";
-    src: url(../public/font/MoscaLaroke/MoscaLaroke.eot);
-    src: url(../public/font/MoscaLaroke/MoscaLaroke.ttf);
-    src: url(../public/font/MoscaLaroke/MoscaLaroke.woff);
-    src: url(../public/font/MoscaLaroke/MoscaLaroke.woff2);
+  font-family: "BattleBingo";
+  src: url(../public/font/BattleBingo/BattleBingo.ttf);
+  src: url(../public/font/BattleBingo/BattleBingo.eot);
+  src: url(../public/font/BattleBingo/BattleBingo.woff);
+  src: url(../public/font/BattleBingo/BattleBingo.woff2);
 }
 
 @font-face {
-    font-family: "BriannaQasim";
-    src: url(../public/font/BriannaQasim/BriannaQasim.eot);
-    src: url(../public/font/BriannaQasim/BriannaQasim.ttf);
-    src: url(../public/font/BriannaQasim/BriannaQasim.woff);
-    src: url(../public/font/BriannaQasim/BriannaQasim.woff2);
+  font-family: "BriannaQasim";
+  src: url(../public/font/BriannaQasim/BriannaQasim.eot);
+  src: url(../public/font/BriannaQasim/BriannaQasim.ttf);
+  src: url(../public/font/BriannaQasim/BriannaQasim.woff);
+  src: url(../public/font/BriannaQasim/BriannaQasim.woff2);
 }
 
 @font-face {
-    font-family: "vazir";
-    src: url(../public/font/vazir-font-v16.1.0/new/Vazir.eot);
-    src: url(../public/font/vazir-font-v16.1.0/new/Vazir.ttf);
-    src: url(../public/font/vazir-font-v16.1.0/new/Vazir.woff);
-    src: url(../public/font/vazir-font-v16.1.0/new/Vazir.woff2);
+  font-family: "vazir";
+  src: url(../public/font/vazir-font-v16.1.0/new/Vazir.eot);
+  src: url(../public/font/vazir-font-v16.1.0/new/Vazir.ttf);
+  src: url(../public/font/vazir-font-v16.1.0/new/Vazir.woff);
+  src: url(../public/font/vazir-font-v16.1.0/new/Vazir.woff2);
 }

@@ -3,8 +3,8 @@ import App from "./App";
 import ProuctCartPage from "./page/ProuctCartPage";
 import AboutPage from "./page/AboutPage";
 import ContactPage from "./page/ContactPage";
+import SearchPage from "./page/SearchPage";
 
-// import Details from "./components/Details";
 
  const router = createBrowserRouter([
   {
@@ -14,6 +14,11 @@ import ContactPage from "./page/ContactPage";
       {
         index: true,
         element: <ProuctCartPage />,
+      },
+   
+      {
+        path: "search",
+        element: <SearchPage />,
       },
       {
         path: "about",

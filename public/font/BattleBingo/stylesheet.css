@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Battle Bingo';
+    src: url('BattleBingo.eot');
+    src: url('BattleBingo.eot?#iefix') format('embedded-opentype'),
+        url('BattleBingo.woff2') format('woff2'),
+        url('BattleBingo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
